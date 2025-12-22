@@ -21,8 +21,8 @@ The project employs a **Multimodal Data Fusion** approach, integrating four simu
 ## 🛠️ Tech Stack
 * **Data Acquisition:** LabStreamingLayer (LSL)
 * **Signal Processing:** Python (`NeuroKit2`, `MNE-Python`)
-* **NLP:** Hugging Face Transformers (`BERT`)
-* **Statistics:** Linear Mixed-Effects Models (LMM) in R/Python
+* **NLP:** Hugging Face Transformers (`BERTimbau`)
+* **Statistics:** Linear Mixed-Effects Models (LMM) in Python/R.
 * 
 ## 🤝 Usage & Collaboration
 This code is open-source (MIT). However, if you plan to use this pipeline in your research, I'd love to hear about it! Please contact me at rebecadcgomes@gmail.com for potential collaboration.
