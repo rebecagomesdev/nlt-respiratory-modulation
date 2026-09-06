@@ -8,13 +8,12 @@
 
 ## ⚡ Quick Summary
 This repository contains the analysis pipeline for my Master's Thesis in **Bioinformatics at USP**. 
-We investigate how different breathing protocols modulate **Cognitive Flexibility** and **Psychophysiological States** under high motivational demand.
+We investigate how different breathing protocols modulate **Cognitive Flexibility** and **Psychophysiological States** under motivational demand.
 
 ## 📊 Data & Methodology
 The project employs a **Multimodal Data Fusion** approach, integrating four simultaneous data streams:
 
-* **🧠 Neural (EEG):** High-density recording (ActiCHamp Plus) to analyze power spectral density (Alpha/Beta/Theta) and functional connectivity (dwPLI).
-* **🫁 Physiological:** Synchronized **ECG (HRV)**, **Respiration** (rate/depth), and **Thermal Imaging** (facial temperature) to assess neurovisceral integration.
+* **🫁 Physiological:** Synchronized **ECG (HRV)** and **Respiration** (rate/depth) to assess neurovisceral integration.
 * **🧩 Cognitive (Task):** **Number-Letter Task** with punitive feedback. Key metric: **Switch Cost** (reaction time trade-off).
 * **💬 Affective (NLP):** Post-task verbal reports processed via **BERTimbau** (Transformers) to extract semantic embeddings of emotional states.
 
