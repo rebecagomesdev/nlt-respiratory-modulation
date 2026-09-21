@@ -17,15 +17,15 @@ variabilidade_sujeitos <- data.frame(
 
 # efeitos da respiração no RMSSD
 efeitos_RMSSD <- c(
-  Box = 5,              # Lehrer et al. 2020
-  Prolongada = 7.5,      # Shao et al., 2024
+  Espontanea = 0,          
+  Prolongada = 7.5,      
   Hiperventilacao = -10 
 )
 
 efeito_RMSSD_sc <- -1.2
 
 efeitos_sc <- c(
-  Box = -4,             # redução moderada
+  Espontanea = 0,            
   Prolongada = -6,      # maior redução (flexibilidade cognitiva)
   Hiperventilacao = 8   # aumento (pior controle inibitório)
 )
@@ -35,7 +35,7 @@ efeitos_sc <- c(
 
 dados_brutos <- expand.grid(
   ID_Participante = 1:60,
-  Sessao = c("Box", "Prolongada", "Hiperventilacao"),
+  Sessao = c("Espontanea", "Prolongada", "Hiperventilacao"),
   Fase = c("Pre_Neutro", "Pos_Neutro"), 
   Trial_N = 1:60 
 ) %>%
